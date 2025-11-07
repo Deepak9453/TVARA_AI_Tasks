@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # Provided test API key
-API_KEY = "AIzaSyDSKBupwR_jNNUTFeodQkOl26LlA0gjxcU"
+API_KEY = "Add your APK KEY"
 # Gemini endpoint
 ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
@@ -42,3 +42,4 @@ def generate():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
